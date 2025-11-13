@@ -27,7 +27,7 @@ export default function SectionTwo({ cards = [] }) {
                 <h3 className="text-lg font-semibold mb-2">{c.title}</h3>
                 <p className="text-gray-600 text-sm mb-4 flex-1">{c.desc}</p>
 
-                <div className="pt-2 mx-auto">
+                <div className="pt-2 lg:mx-auto">
                   <Btn cta={c.ctaText} />
                 </div>
               </div>

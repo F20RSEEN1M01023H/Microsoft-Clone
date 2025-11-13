@@ -15,6 +15,7 @@ import bcard1 from "../../assets/bcard1.avif";
 import bcard2 from "../../assets/bcard2.avif";
 import bcard3 from "../../assets/bcard3.avif";
 import bcard4 from "../../assets/bcard4.webp";
+import SectionFive from "./SectionFive";
 
 const HeroSection = () => {
   return (
@@ -90,6 +91,7 @@ const HeroSection = () => {
           },
         ]}
       />
+      <SectionFive />
     </div>
   );
 };
