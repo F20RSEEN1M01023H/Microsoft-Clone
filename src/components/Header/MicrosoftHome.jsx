@@ -59,7 +59,7 @@ export default function MicrosoftHome() {
   return (
     <div>
       <header
-        className={`relative flex justify-between items-center px-4 sm:px-6 md:px-6 lg:px-8 h-14 bg-white ${
+        className={`relative flex justify-between items-center px-4 sm:px-6 md:px-6 lg:px-14 h-14 bg-white ${
           searchOpen ? "hidden md:block" : ""
         }`}
       >

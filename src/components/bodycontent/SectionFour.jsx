@@ -2,10 +2,13 @@
 import React from "react";
 import Btn from "./Btn";
 
-export default function SectionTwo({ cards = [] }) {
+export default function SectionFour({ cards = [] }) {
   return (
-    <section className="w-full bg-white py-10 lg:py-18">
+    <section className="w-full bg-white  py-2 lg:py-18">
       <div className="container mx-auto px-2 lg:px-16">
+        <div>
+          <h1 className="text-4xl font-bold mb-2 ">For buisness</h1>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-6">
           {cards.map((c, idx) => (
             <article

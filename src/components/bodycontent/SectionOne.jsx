@@ -15,7 +15,7 @@ export default function SectionOne({ hero1, hero2, bta, cta, desc, title }) {
             aria-label="Hero image"
           />
           {/* Content box below image (visible on mobile) */}
-          <div className="w-full bg-white px-6 py-8">
+          <div className="w-full bg-white px-2 lg:px-6 py-8">
             <div className="mx-auto max-w-3xl">
               <h2 className="text-3xl lg:text-4xl font-semibold mb-4">
                 {title}
