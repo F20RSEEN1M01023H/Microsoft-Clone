@@ -55,15 +55,15 @@ export default function SimpleFollowSection() {
       className="relative w-full lg:px-12 bg-white  py-5"
     >
       <div className="max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between">
+        <div className="flex items-centr">
           {/* Left: text + icons */}
-          <div className="flex items-center gap-4">
-            <span
-              className="text-lg font-semibold text-black
+          <div className="flex-inline sm:flex items-center gap-4">
+            <div
+              className=" text-lg font-semibold text-black
             "
             >
               Follow Microsoft
-            </span>
+            </div>
 
             <div className="flex items-center gap-2">
               {/* Facebook */}
@@ -119,8 +119,8 @@ export default function SimpleFollowSection() {
           aria-label="Back to top"
           className={
             insideSection
-              ? "absolute right-6 bottom-2 lg:bottom-6 z-10 bg-gray-700/70 hover:bg-gray-600/90 font-semibold text-black rounded w-35 h-12 shadow flex items-center justify-center"
-              : "fixed right-6 bottom-2 lg:bottom-6 z-50 bg-gray-700/70 hover:bg-gray-600/90 font-semibold text-black rounded w-35 h-12 shadow flex items-center justify-center"
+              ? "absolute right-6 bottom-6  sm:bottom-4 z-10 bg-gray-700/70 hover:bg-gray-600/90 font-semibold text-black rounded w-35 h-12 shadow flex items-center justify-center"
+              : "fixed right-6 bottom-6 lg:bottom-4 z-50 bg-gray-700/70 hover:bg-gray-600/90 font-semibold text-black rounded w-35 h-12 shadow flex items-center justify-center"
           }
         >
           Back to top

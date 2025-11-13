@@ -115,7 +115,6 @@ export default function MegaMenu() {
             role="dialog"
             aria-modal="true"
             className="fixed left-0 right-0 top-[64px] z-50 mx-auto w-full h-[75vh] bg-white shadow-2xl overflow-auto transform-gpu transition-transform duration-200"
-            // top value assumes your navbar is 64px tall; change if needed
             style={{ willChange: "transform" }}
           >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
