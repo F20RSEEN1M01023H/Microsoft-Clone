@@ -5,7 +5,7 @@ import Btn from "./Btn";
 export default function SectionFour({ cards = [] }) {
   return (
     <section className="w-full bg-white  py-2 lg:py-5">
-      <div className="container mx-auto px-2 lg:px-16">
+      <div className=" px-2 lg:px-16">
         <div>
           <h1 className="text-4xl font-bold mb-2 ">For buisness</h1>
         </div>

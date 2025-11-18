@@ -5,7 +5,7 @@ export default function Footer({ bottomLinks = [], footerCols = [] }) {
   return (
     <footer className="bg-gray-100 text-gray-800">
       {/* Top columns */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 py-12">
+      <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-16 py-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
           {footerCols.map((col) => (
             <div key={col.title}>

@@ -4,9 +4,9 @@ import Btn from "./Btn";
 export default function SectionThree({ hero3, cta, desc, title }) {
   return (
     <section className="w-full py-6 lg:py-10 px-2 lg:px-16">
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-10xl">
         {/* ---------- MOBILE / TABLET: show image first, then content below ---------- */}
-        <div className="lg:hidden w-full">
+        <div className=" lg:hidden w-full">
           {/* Mobile image row */}
           <div
             className="w-full h-56 sm:h-72  bg-cover"
@@ -15,8 +15,8 @@ export default function SectionThree({ hero3, cta, desc, title }) {
             aria-label="Hero image"
           />
           {/* Content box below image (visible on mobile) */}
-          <div className="w-full bg-white px-2 lg:px-6 py-8">
-            <div className="mx-auto max-w-3xl">
+          <div className="flex justify-center  bg-white px-2 lg:px-6 py-8">
+            <div className="p-4 md:-mt-20 w-full md:max-w-7xl bg-white shadow-sm">
               <h2 className="text-3xl lg:text-4xl font-semibold mb-4">
                 {title}
               </h2>
@@ -27,7 +27,7 @@ export default function SectionThree({ hero3, cta, desc, title }) {
         </div>
         {/* ---------- DESKTOP: background image with right-side content (desktop only) ---------- */}
         <div
-          className="hidden lg:block w-full h-[90vh] bg-center bg-cover relative"
+          className="hidden lg:block w-full h-[90vh]  bg-center bg-cover relative"
           style={{
             backgroundImage: `url(${hero3})`,
             backgroundSize: "cover",
@@ -44,7 +44,7 @@ export default function SectionThree({ hero3, cta, desc, title }) {
                 <div className="col-span-6" />
 
                 {/* right column with content, vertically centered */}
-                <div className="col-span-5 p-8 bg-white  text-black font-normal ">
+                <div className="col-span-5  lg:bg-white p-8  text-black font-normal ">
                   <div className="">
                     <h2 className="text-3xl lg:text-4xl font-semibold mb-4">
                       {title}

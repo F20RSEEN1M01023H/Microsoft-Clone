@@ -4,7 +4,7 @@ import Btn from "./Btn";
 export default function SectionOne({ hero1, hero2, bta, cta, desc, title }) {
   return (
     <section className="w-full">
-      <div className="mx-auto max-w-7xl">
+      <div className="max-w-10xl">
         {/* ---------- MOBILE / TABLET: show image first, then content below ---------- */}
         <div className="lg:hidden w-full">
           {/* Mobile image row */}
@@ -15,15 +15,15 @@ export default function SectionOne({ hero1, hero2, bta, cta, desc, title }) {
             aria-label="Hero image"
           />
           {/* Content box below image (visible on mobile) */}
-          <div className="w-full bg-white px-2 lg:px-6 py-8">
-            <div className="mx-auto max-w-3xl">
+          <div className=" flex justify-center  bg-white px-2 lg:px-6 py-8">
+            <div className="p-4 md:-mt-20 w-full md:max-w-7xl bg-white shadow-sm">
               <h2 className="text-3xl lg:text-4xl font-semibold mb-4">
                 {title}
               </h2>
               <p className=" mb-6">{desc}</p>
-              <Btn cta={cta} />
 
-              <div className="flex items-center gap-4 mt-3">
+              <div className="flex flex-wrap items-center gap-4 mt-3">
+                <Btn cta={cta} />
                 <a
                   href="#"
                   className="text-[#0067b8] inline-flex items-center gap-1 text-md font-semibold underline"
